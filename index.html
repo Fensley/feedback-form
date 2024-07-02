@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="card">
+            <div class="top">
+
+                <h1>Send us some Feedback!</h1>
+                <p>Do you have a suggestion or found some bug? Let us know in the field bellow..</p>
+            </div>
+            <div class="area">
+
+                <textarea name="text" id="textarea" placeholder="Describe your issue or idea..." required
+                    class="select-holder"></textarea>
+            </div>
+            <form>
+                <div class="forinput">
+                    <div class="one">
+                        <input type="radio" id="radioone" name="drone">
+                        <label for="radioone">Bug</label>
+                    </div>
+                    <div class="one">
+                        <input type="radio" id="radiotwo" name="drone">
+                        <label for="radiotwo">Comment</label>
+                    </div>
+                    <div class="one">
+                        <input type="radio" id="radiotwa" name="drone">
+                        <label for="radiotwa">Other</label>
+                    </div>
+                </div>
+                <div class="forbtn">
+                    <button id="btn">Send Feedback</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
